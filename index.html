@@ -43,95 +43,65 @@
   </nav>
 
   <section id="form" class="hero mx-3 my-5">
-    <h1>Pendaftaran untuk menjadi pacarku</h1>
-    <div class="container-fluid d-flex">
-      <div class="one">
-        <form class="row g-3 needs-validation" novalidate>
-          <div class="col-md-4">
-            <label for="validationCustom01" class="form-label">Nama</label>
-            <input
-              type="text"
-              class="form-control"
-              id="validationCustom01"
-            />
-            <div class="valid-feedback">Bisalah!</div>
-          </div>
-          <div class="col-md-4">
-            <label for="validationCustom02" class="form-label">Marga</label>
-            <input
-              type="text"
-              class="form-control"
-              id="validationCustom02"
-            />
-            <div class="valid-feedback">Mayanlah!</div>
-          </div>
-          <div class="col-md-4">
-            <label for="validationCustomUsername" class="form-label">Username IG</label>
-            <div class="input-group has-validation">
-              <span class="input-group-text" id="inputGroupPrepend">@</span>
-              <input
-                type="text"
-                class="form-control"
-                id="validationCustomUsername"
-                aria-describedby="inputGroupPrepend"
-                required
-              />
-              <div class="invalid-feedback">Kau isila.</div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <label for="validationCustom03" class="form-label">Kota</label>
-            <input
-              type="text"
-              class="form-control"
-              id="validationCustom03"
-              required
-            />
-            <div class="invalid-feedback">Gak ada kota ini di dunia.</div>
-          </div>
-          <div class="col-md-3">
-            <label for="validationCustom04" class="form-label">Provinsi</label>
-            <select class="form-select" id="validationCustom04" required>
-              <option selected disabled value="">Pilih...</option>
-              <option>...</option>
-            </select>
-            <div class="invalid-feedback">Kau masukkan betul-betul la.</div>
-          </div>
-          <div class="col-md-3">
-            <label for="validationCustom05" class="form-label">Kode Pos</label>
-            <input
-              type="text"
-              class="form-control"
-              id="validationCustom05"
-              required
-            />
-            <div class="invalid-feedback">Isi ajala.</div>
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=""
-                id="invalidCheck"
-                required
-              />
-              <label class="form-check-label" for="invalidCheck">
-                Setuju lah kau dengan syarat-syarat ini.
-              </label>
-              <div class="invalid-feedback">
-                HARUS SETUJU.
+      <h1>Pendaftaran untuk menjadi pacarku</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 order-md-1 order-2">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="validationCustom01" />
+                <div class="valid-feedback">Bisalah!</div>
               </div>
-            </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Marga</label>
+                <input type="text" class="form-control" id="validationCustom02" />
+                <div class="valid-feedback">Mayanlah!</div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Username IG</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" required />
+                  <div class="invalid-feedback">Kau isila.</div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Kota</label>
+                <input type="text" class="form-control" id="validationCustom03" required />
+                <div class="invalid-feedback">Gak ada kota ini di dunia.</div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Provinsi</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Pilih...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">Kau masukkan betul-betul la.</div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Kode Pos</label>
+                <input type="text" class="form-control" id="validationCustom05" required />
+                <div class="invalid-feedback">Isi ajala.</div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required />
+                  <label class="form-check-label" for="invalidCheck">
+                    Setuju lah kau dengan syarat-syarat ini.
+                  </label>
+                  <div class="invalid-feedback">
+                    HARUS SETUJU.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button class="btn btn-dark" type="submit">Kirim form</button>
+              </div>
+            </form>
           </div>
-          <div class="col-12">
-            <button class="btn btn-dark" type="submit">Kirim form</button>
-          </div>
-        </form>
-      </div>
-      <div class="section-image container-fluid">
+      <div class="col-md-6 order-md-2 order-1 mb-4 mb-md-0">
         <img class="img-fluid" src="./src/parul.JPG" alt="Parul Cantik" />
-      </div>
     </div>
   </section>
 
